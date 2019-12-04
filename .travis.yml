@@ -19,7 +19,7 @@ install:
 before_script:
 script:
   - PYTHONWARNINGS=all pytets --cov=.
-  - py.test calculator/main_test.py
+  - py.test calculator/math_test.py
   
 aftere_success:
   - codecov
